@@ -1,0 +1,1 @@
+import{a}from"./request.751fbdec.js";const s=(e,t,r)=>a.post("/request_demo",{email:e,discord:t,phone:r}),i=e=>a.get("/sendCode",{email:e}),n=(e,t)=>a.post("/login",{email:e,code:t}),p=(e,t)=>a.post("/register",{email:e,code:t}),c=(e,t)=>a.get("/bigchart",{range:e});export{s as a,i as b,n as c,p as d,c as e};
